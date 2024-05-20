@@ -1,0 +1,63 @@
+body{
+    background-image: linear-gradient(to bottom right, #153448   , #3C5B6F);
+}
+
+.logo {
+    line-height: 1;
+  }
+  @media (min-width: 1200px) {
+  .logo {
+    width: 280px;
+  }
+}
+
+.logo img {
+  max-height: 26px;
+  margin-right: 6px;
+}
+
+.logo span {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Nunito", sans-serif;
+}
+.gambar{
+    background-size: 20px;
+}
+.card {
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0 70px rgba(0, 0, 0, 0.69);
+  }
+
+  .card-header,
+  .card-footer {
+    border-color: #ebeef4;
+    background-color: #fff;
+    color: #798eb3;
+    padding: 15px;
+  }
+
+  .card-title {
+    padding: 20px 0 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #012970;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .card-title span {
+    color: #899bbd;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .card-body {
+    padding: 0 20px 20px 20px;
+  }
+
+  .card-img-overlay {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
